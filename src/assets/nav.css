@@ -1,0 +1,40 @@
+
+.icons{
+    display: inline-flex;
+    gap: 20px;
+    
+}
+.header-nav-links{
+    padding: 5px 0px;
+    font-size: 14px;
+}
+.header-nav-links .nav-item:nth-child(1) a{
+    padding-left: 0;
+}
+a{
+    color: unset !important;
+
+}
+.logo{
+    color: red;
+    display: flex;
+    align-items: center;
+}
+.action-icons span{
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    position:absolute;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -2px;
+    right: -6px;
+    border-radius: 100%;
+    
+}
+.action-icons{
+    position: relative;
+}
