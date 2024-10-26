@@ -34,23 +34,26 @@ const HeaderNavLinks = () => {
 
 function Header() {
   return (
-    <header className='border-bottom '>
+    <header className='border-bottom pb-2'>
       <Navbar expand="lg" className='pb-0' >
         <Container>
-          <div className='d-flex align-items-center'>
+          <div className='d-md-flex align-items-center'>
             <div className="logo">
               <TbBrandElectronicArts size={30} />
               <Navbar.Brand href="#" className='ms-2 text-dark fw-bold' >Gadgets-Cart</Navbar.Brand>
             </div>
-            <Form className="col-12 d-flex border align-items-center px-1 rounded mx-4" >
-              <Form.Control 
-                type="search"
-                placeholder="Search"
-                className="me-2 border-0"
-                aria-label="search"
-              />
-              <CiSearch size={24} />
-            </Form>
+            {window.innerWidth > 992 ?
+              <Form className="col-12 d-flex border align-items-center px-1 rounded mx-md-4" >
+                <Form.Control
+                  type="search"
+                  placeholder="Search"
+                  className="me-2 border-0"
+                  aria-label="search"
+                />
+                <CiSearch size={24} />
+              </Form>
+              : null
+            }
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
