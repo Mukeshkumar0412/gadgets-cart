@@ -59,10 +59,10 @@ function Header() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="ms-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              
               navbarScroll
             >
-              <div className="icons px-3">
+              <div className="icons p-3">
                 <div className='action-icons'>
                   <FaRegHeart />
                   <span>5</span>
