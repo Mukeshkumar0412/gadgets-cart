@@ -26,21 +26,13 @@ function Banners() {
         </div>
         <div>
           <div style={{ backgroundImage: `url(${assets.banner01})` }} className="banner-slide">
-            <div className="col-md-4">
-              <Badge className="bg-warning" text="dark">Free Shipping - orders over $100</Badge>
-              <h1>Free Shipping on orders over <span className="text-danger">$100</span></h1>
-              <p> Free Shipping to First-Time Customers only, After Promotions and discount are applied.</p>
-              <Button >Shop now</Button>
-            </div>
+           
           </div>
         </div>
         <div>
           <div style={{ backgroundImage: `url(${assets.banner01})` }} className="banner-slide">
             <div className="col-md-4">
-              <Badge className="bg-warning" text="dark">Free Shipping - orders over $100</Badge>
-              <h1>Free Shipping on orders over <span className="text-danger">$100</span></h1>
-              <p> Free Shipping to First-Time Customers only, After Promotions and discount are applied.</p>
-              <Button >Shop now</Button>
+              
             </div>
           </div>
         </div>

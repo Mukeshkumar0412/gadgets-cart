@@ -38,7 +38,6 @@ a{
 .action-icons{
     position: relative;
 }
-
 .banner-slide{
     min-height: 400px;
     background-size: cover;
@@ -48,6 +47,7 @@ a{
     padding: 20px 30px;
     display: flex;
     align-items: center;
+    
 }
 .slick-dots{
     bottom: 20px !important;
@@ -58,4 +58,8 @@ a{
 }
 .slick-dots li.slick-active button:before{
     opacity: 1 !important;
+}
+.product{
+    padding: 10px;
+
 }
