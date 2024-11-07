@@ -1,3 +1,16 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
 
 .icons{
     display: inline-flex;
@@ -79,4 +92,24 @@ a{
 .para{
     padding: 10px;
     text-align: justify;
+}
+.cate-img{
+    height: 250px;
+    object-fit: contain;
+}
+.footer-bar{
+    display: flex;
+    font-size: large;
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+.footer-icon{
+    margin-left: 600px;
+    font-size: 30px;
+    display: inline-flex;
+    gap: 10px;
+}
+.lowerfoot{
+    font-size: medium;
 }

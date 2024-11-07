@@ -5,13 +5,17 @@ import { BsCartCheck } from "react-icons/bs";
 
 
 export default function ProductComponent() {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState([])
+    // const [limit, setLimit] = useState(10)
+    // const [loading,setLoading]= useState(true)
 
     useEffect(() => {
+        
         axios.post('https://ecom-shop-api.vercel.app/products', {
             store: "gadget"
         }).then(res => {
             setData(res.data.data)
+            
         })
         // fetch('https://ecom-shop-api.vercel.app/products', {
         //     method: 'post',
@@ -57,8 +61,10 @@ export default function ProductComponent() {
                             </Col>
                         ))
                         : null
+                       
                 }
             </Row>
+           
         </Container>
     )
 }

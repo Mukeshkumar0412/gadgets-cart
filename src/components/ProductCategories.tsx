@@ -41,7 +41,7 @@ function ProductCategories() {
                                 width: '18rem'
                             }}
                         >
-                            <img
+                            <img className="cate-img"
                                 alt="Sample"
                                 src={item.image.original}/>
                             <Card.Body>
