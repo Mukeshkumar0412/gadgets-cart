@@ -63,3 +63,20 @@ a{
     padding: 10px;
 
 }
+.bannerimg{
+    width: 100%;
+}
+.icons-main{
+    color: red;
+    font-size: 60px;
+    padding: 10px;
+}
+.font-head{
+    font-weight: 500;
+    font-size: large;
+    padding: 10px;
+}
+.para{
+    padding: 10px;
+    text-align: justify;
+}

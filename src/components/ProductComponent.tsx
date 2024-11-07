@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { BsCartCheck } from "react-icons/bs";
+
 
 export default function ProductComponent() {
     const [data, setData] = useState([]);
@@ -39,9 +41,17 @@ export default function ProductComponent() {
                                         <Card.Title>
                                             {item.name}
                                         </Card.Title>
-                                        <Card.Text>
-                                            {/* {item.banners} */}
+                                        <Card.Text className="">
+                                            {item.shop.description }
+                                            {item.icon}
+                                            <br></br>
+                                            <b>ID:</b>       {item.id}
+                                        <br></br>
+                                            <b>$</b>     {item.min_price}
+                                            <br></br>
+                                            <b>Quantity:</b>       {item.quantity}
                                         </Card.Text>
+                                        <Button className="btn"> Buy </Button>
                                     </Card.Body>
                                 </Card>
                             </Col>

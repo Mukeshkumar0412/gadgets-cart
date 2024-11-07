@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { Component, useEffect, useState } from "react";
 import { Button, Card, Container, } from "react-bootstrap";
+import { BsCartCheck } from "react-icons/bs";
 import Slider from "react-slick";
 
 function ProductCategories() {
@@ -33,7 +34,7 @@ function ProductCategories() {
                 data.map((item:any)=>(
 
 
-                <div>
+                <div className="category">
                     <div className="banner-slide">
                         <Card
                             style={{
@@ -51,9 +52,10 @@ function ProductCategories() {
                                 </Card.Subtitle>
                                 <Card.Text>
                                     {item.icon}
+                                    
                                 </Card.Text>
                                 <Button>
-                                    Button
+                                <BsCartCheck />
                                 </Button>
                             </Card.Body>
                         </Card>
