@@ -60,7 +60,19 @@ a{
     padding: 20px 30px;
     display: flex;
     align-items: center;
+    height: 600px;
     
+}
+.adbanner-slide{
+    min-height: 400px;
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    align-items:center;
+    height: 70px;
 }
 .slick-dots{
     bottom: 20px !important;
@@ -102,14 +114,51 @@ a{
     font-size: large;
     background-color:whitesmoke;
     padding: 20px;
+    height: 150px;
 }
 
-.footer-icon{
-    margin-left: 600px;
+.footer-icons{
     font-size: 30px;
     display: inline-flex;
     gap: 10px;
+    margin-left: 700px;
+}
+.lowbanner-slide{
+    height: 60px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:center; 
 }
 .lowerfoot{
+    background-color: whitesmoke;
     font-size: medium;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+.product-img{
+    object-fit: contain;
+    height: 100%;
+}
+.pay-img{
+    height: 100px;
+   padding-bottom: 60px;
+   margin-left: 20px;
+   margin-top: 20px;
+   
+}
+.paymentlogo{
+    display: flex;
+    padding: 10px;
+    
+}
+.mmm{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 25px;
 }

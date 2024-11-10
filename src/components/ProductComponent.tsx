@@ -37,7 +37,7 @@ export default function ProductComponent() {
                         data.map((item: any) => (
                             <Col md={4} key={item.id} className="product">
                                 <Card>
-                                    <img
+                                    <img className="product-img"
                                         alt="Sample"
                                         src={item.image.thumbnail}
                                     />

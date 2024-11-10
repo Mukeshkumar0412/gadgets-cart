@@ -6,6 +6,7 @@ import ProductCategories from './components/ProductCategories'
 import AdBanner from './components/AdBanner'
 import FooterAd from './components/FooterAd'
 import Footer from './components/Footer'
+import LowerFoot from './components/LowerFoot'
 
 
 
@@ -24,6 +25,7 @@ export default function App({ }: Props) {
       <ProductComponents/>
       <FooterAd/>
       <Footer/>
+      <LowerFoot/>
     </div>
     
   )
