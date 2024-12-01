@@ -3,6 +3,7 @@ export const assets = {
     adbanner: require('../assets/images/yyy.jpg'),
     adbanner2: require('../assets/images/nnn.jpg'),
     foot1: require('../assets/images/appstorre.png'),
-    foot2: require('../assets/images/playstore.png')
+    foot2: require('../assets/images/playstore.png'),
+    monitor: require('../assets/images/monitor.jpg')
    
 }
