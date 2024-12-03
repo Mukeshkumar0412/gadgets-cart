@@ -13,6 +13,7 @@ import FooterAd from "./components/FooterAd";
 import Footer from "./components/Footer";
 import ProductComponent from "./components/ProductComponent";
 import Categories from "./components/Categories";
+import Wishlist from "./components/Wishlist";
 
 
 type Props = {}
@@ -50,10 +51,13 @@ function App({}: Props) {
               path: '/products/:slug',
               element: <ProductDetails />
           },
-        
+          {
+            path: '/wishlist/:slug',
+            element: <Wishlist />
+        },
       
            
-        ]
+        ] 
     }
   ]
   const routes = createBrowserRouter(appRoutes)

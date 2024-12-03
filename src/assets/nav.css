@@ -88,10 +88,17 @@ a{
     padding: 10px;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+   
+    
 
 }
-.text-product{
-  letter-spacing: 2px;
+.product-img{
+  object-fit: contain;
+  height: 20%;
+  width: 100%;
+}
+.product-title h1{
+  font-size: larger;
 }
 .bannerimg{
     width: 100%;
@@ -144,11 +151,6 @@ a{
     height: 50px;
     padding-top: 10px;
 
-}
-
-.product-img{
-    object-fit: contain;
-    height: 100%;
 }
 .pay-img{
     height: 100px;
@@ -357,7 +359,7 @@ a{
   } */
 
 
-  .modal-dialog {
+  /* .modal-dialog {
     max-width: var(--bs-modal-width);
     margin-right: 10px;
     margin-left: auto;
@@ -509,4 +511,8 @@ background-color: rgb(3, 0, 43);
     border-radius: 10px;
 
 }
+ */
 
+ .heart-icon {
+  margin: 10px;
+ }
