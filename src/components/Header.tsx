@@ -1,17 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { 
-  Button, 
-  Container, 
-  Form, 
-  Nav, 
-  Navbar 
-} from 'react-bootstrap';
-import { 
-  BsCartCheck,
-  BsSearch 
-} from "react-icons/bs";
+import { Button,Container,Form,Nav,Navbar} from 'react-bootstrap';
+import { BsCartCheck, BsSearch } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
 import { TbBrandElectronicArts } from "react-icons/tb";
@@ -41,7 +32,6 @@ const HeaderNavLinks = () => {
 
 function Header() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  // const cartItems = useSelector((state: RootState) => state.cart.items);
   const cartCount = 0; 
 
   useEffect(() => {
